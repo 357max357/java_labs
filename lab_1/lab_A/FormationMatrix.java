@@ -18,7 +18,7 @@ public class FormationMatrix {
   public static int[][] makeArray(int i, int j) {
     int[][] arr = new int[i][j];
     for (int a = 0; a < i; a++) {
-      arr[n][0] = 1;
+      arr[a][0] = 1;
       for (int b = 1; b < j; b++) {
         arr[a][b] = 0;
       }
